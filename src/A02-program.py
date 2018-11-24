@@ -1,6 +1,5 @@
 #!/bin/python
 # Author: Hugh Pearse
-# Installation instructions: pip install numpy pandas matplotlib xlrd ipywidgets
 import numpy as np
 import pandas as pd
 import matplotlib  

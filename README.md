@@ -1,9 +1,13 @@
 # Visualising Summary Statistics for London Boroughs
 
+## Requirements
+To run this you will need Python v2.7 with Tkinter
+
 ## Installation Instructions:
 ```bash
 foo@bar:~$ sudo pip install virtualenv #install python sandboxing to the OS
-foo@bar:~$ cd src
+foo@bar:~$ git clone https://github.com/hughpearse/data-visualiation-ca682-assignment1
+foo@bar:~$ cd data-visualiation-ca682-assignment1/src
 foo@bar:~$ virtualenv sandbox #create python sandbox
 foo@bar:~$ virtualenv -p /usr/bin/python2.7 sandbox #add python 2.7 to sandbox
 foo@bar:~$ source sandbox/bin/activate #enter sandbox
