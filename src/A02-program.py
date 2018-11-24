@@ -277,7 +277,7 @@ def test_normality_graph():
     medianlineprops = dict(linestyle='-', linewidth=0.8, color='blue')
     ax1.boxplot(data["z_score_of_res"], flierprops=outlier_marker, vert=False, showmeans=True, meanprops=meanlineprops, meanline=True, medianprops=medianlineprops)
     ax1.plot(np.NaN, np.NaN, 's', color='black',  markerfacecolor='white', label="outliers")
-    ax1.plot(np.NaN, np.NaN, color='orange', label="median")
+    ax1.plot(np.NaN, np.NaN, color='blue', label="median")
     ax1.plot(np.NaN, np.NaN, '--', color='red', label="mean")
     ax1.legend(loc='upper center', bbox_to_anchor=(0.5, 1.3), ncol=3)
     ax1.tick_params(axis='both', left=False, labelleft=False)
