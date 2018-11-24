@@ -26,26 +26,26 @@ foo@bar:~$ deactivate #exit sandbox
 
 [Ministry of Housing, Communities & Local Government (MHCLG), Homelessness Provision, Borough](https://data.london.gov.uk/dataset/homelessness)
 
-[Land Registry, Average House Prices by Borough, Ward, MSOA & LSOA]( https://data.london.gov.uk/dataset/average-house-prices )
+[Land Registry, Average House Prices by Borough, Ward, MSOA & LSOA](https://data.london.gov.uk/dataset/average-house-prices)
 
 [Department for Education, GCSE Results by Borough](https://data.london.gov.uk/dataset/gcse-results-by-borough)
 
-[Office for National Statistics (ONS), Qualifications of Working Age Population (NVQ), Borough]( https://data.london.gov.uk/dataset/qualifications-working-age-population-nvq-borough)
+[Office for National Statistics (ONS), Qualifications of Working Age Population (NVQ), Borough](https://data.london.gov.uk/dataset/qualifications-working-age-population-nvq-borough)
 
-[Greater London Authority (GLA), Household Income Estimates for Small Areas]( https://data.london.gov.uk/dataset/household-income-estimates-small-areas )
+[Greater London Authority (GLA), Household Income Estimates for Small Areas](https://data.london.gov.uk/dataset/household-income-estimates-small-areas)
 
 [Office for National Statistics (ONS), Business Demographics and Survival Rates, Borough](https://data.london.gov.uk/dataset/business-demographics-and-survival-rates-borough)
 
-[Office for National Statistics (ONS), Workless Households, Borough]( https://data.london.gov.uk/dataset/workless-households-borough )
+[Office for National Statistics (ONS), Workless Households, Borough](https://data.london.gov.uk/dataset/workless-households-borough)
 
 [Department of Health, Prevalence of Childhood Obesity, Borough, Ward and MSOA](https://data.london.gov.uk/dataset/prevalence-childhood-obesity-borough)
 
-[Office for National Statistics (ONS), Life Expectancy at Birth and Age 65 by Ward]( https://data.london.gov.uk/dataset/life-expectancy-birth-and-age-65-ward )
+[Office for National Statistics (ONS), Life Expectancy at Birth and Age 65 by Ward](https://data.london.gov.uk/dataset/life-expectancy-birth-and-age-65-ward)
 
-[HM Revenue & Customs, Children in Poverty, Borough and Ward](https://data.london.gov.uk/dataset/children-poverty-borough )
+[HM Revenue & Customs, Children in Poverty, Borough and Ward](https://data.london.gov.uk/dataset/children-poverty-borough)
 
 [Department of Health, Immunisation Rates for Children at 1st, 2nd and 5th Birthdays](https://data.london.gov.uk/dataset/immunisation-rates-children-1st-2nd-and-5th-birthdays )
 
-[Office for National Statistics (ONS), Ratio of House Prices to Earnings, Borough](https://data.london.gov.uk/dataset/ratio-house-prices-earnings-borough )
+[Office for National Statistics (ONS), Ratio of House Prices to Earnings, Borough](https://data.london.gov.uk/dataset/ratio-house-prices-earnings-borough)
 
 [Office Of National Statistics, National Statistics Postcode Lookup UK](https://opendata.camden.gov.uk/Maps/National-Statistics-Postcode-Lookup-UK/tr8t-gqz7)
