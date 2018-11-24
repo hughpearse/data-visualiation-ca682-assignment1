@@ -9,17 +9,18 @@ foo@bar:~$ virtualenv -p /usr/bin/python2.7 sandbox #add python 2.7 to sandbox
 foo@bar:~$ source sandbox/bin/activate #enter sandbox
 foo@bar:~$ pip install numpy pandas matplotlib xlrd scipy #install project deps
 foo@bar:~$ chmod 700 ./A02-program.py #change file permissions
+foo@bar:~$ deactivate #exit sandbox
 ```
 
 ## Usage Instructions:
 ```bash
 foo@bar:~$ cd src
+foo@bar:~$ source sandbox/bin/activate #enter sandbox
 foo@bar:~$ python ./A02-program.py #launch project
 foo@bar:~$ deactivate #exit sandbox
 ```
 
 ## Data Sources:
-[I'm an inline-style link](https://www.google.com)
 
 [Metropolitan Police Service, Recorded Crime: Borough Rates](https://data.london.gov.uk/dataset/recorded_crime_rates)
 
