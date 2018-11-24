@@ -1,4 +1,8 @@
 # Visualising Summary Statistics for London Boroughs
+The London Datastore provides various datasets that may also be available elsewhere but the data has been enhanced by only providing the relevant subset of original data and focussing on just London by removing statistics for other regions in the UK and aggregating years of related information into a single file. The aim of this project is to take the results of different types of surveys and provide a method of visualising any measure of linear correlation between multiple datasets for investigative purposes. This will provide data researchers a method a simple way to visually find novel linear relationships.
+
+# Showcase
+[![Youtube video](https://img.youtube.com/vi/WBn1DUtYCkA/0.jpg)](https://www.youtube.com/watch?v=WBn1DUtYCkA)
 
 ## Requirements
 To run this you will need Python v2.7 with Tkinter
@@ -53,3 +57,4 @@ foo@bar:~$ deactivate #exit sandbox
 [Office for National Statistics (ONS), Ratio of House Prices to Earnings, Borough](https://data.london.gov.uk/dataset/ratio-house-prices-earnings-borough)
 
 [Office Of National Statistics, National Statistics Postcode Lookup UK](https://opendata.camden.gov.uk/Maps/National-Statistics-Postcode-Lookup-UK/tr8t-gqz7)
+
