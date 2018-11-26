@@ -371,7 +371,10 @@ def plot_corr(df,w_size,h_size):
     for i in range(len(corr_df2)):
         for j in range(len(corr_df2)):
             if (corr_df2[i, j] != 0.0 and corr_df2[i, j] == corr_df2[i, j]):
-                text = ax.text(j, i, round(corr_df2[i, j],1), ha="center", va="center", color="k", fontsize=7)
+            	if (corr_df2[i, j] > 0.7) or (corr_df2[i, j] < -0.7):
+                    text = ax.text(j, i, round(corr_df2[i, j],1), ha="center", va="center", color="w", fontsize=7)
+                else:
+                    text = ax.text(j, i, round(corr_df2[i, j],1), ha="center", va="center", color="k", fontsize=7)
     
     fig.set_size_inches(w_size, h_size)
     fig.dpi=90
