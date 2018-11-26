@@ -1,5 +1,6 @@
 #!/bin/python
 # Author: Hugh Pearse
+from collections import OrderedDict
 import numpy as np
 import pandas as pd
 import matplotlib  
@@ -200,7 +201,7 @@ def graph_x_y():
         x_i = row[1]
         y_i = row[2]
         if y_i < ((slope * x_i + intercept)+(std_y*2)) and y_i > ((slope * x_i + intercept)-(std_y*2)):
-        	plt.scatter(x_i,y_i)
+            plt.scatter(x_i,y_i,facecolor='white', edgecolor='blue', label="Data")
         else:
             if (x_i > x_middle) and (y_i > y_middle):
                 plt.annotate( "%s" %str(point_label), xy=(x_i,y_i), xytext=(0,-3), ha='right', va="top", textcoords='offset points')
@@ -211,11 +212,12 @@ def graph_x_y():
             if (x_i < x_middle) and (y_i < y_middle):
                 plt.annotate( "%s" %str(point_label), xy=(x_i,y_i), xytext=(0,3), ha='left', va="bottom", textcoords='offset points')
             #plt.text(x_i+x_offset, y_i+y_offset, point_label)
-            plt.scatter(x_i,y_i, c='k')
-            print x_i,",",y_i
+            plt.scatter(x_i,y_i,c='k', label="Outlier")
     
     # Add legend
-    plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3,ncol=2, borderaxespad=0.)
+    handles, labels = plt.gca().get_legend_handles_labels()
+    by_label = OrderedDict(zip(labels, handles))
+    plt.legend(by_label.values(), by_label.keys(), bbox_to_anchor=(0., 1.02, 1., .10), loc=3,ncol=3, borderaxespad=0.)
     
     plt.figtext(0.5,0.05,"Fig. 2 - Ordinary least squares linear regression", horizontalalignment='center', multialignment='center')
     fig.dpi=100
