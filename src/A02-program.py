@@ -182,11 +182,11 @@ def graph_x_y():
     ell_w, ell_h = 2 * num_std_dev * np.sqrt(vals)
     std_y = np.std(y)  #ell_h // 2
     ell_center = (np.mean(df_1[combo_x_axis.get()]), np.mean(df_1[combo_y_axis.get()]))
-    ell = Ellipse(xy=ell_center, width=ell_w, height=ell_h, angle=theta, color='black', )
+    ell = Ellipse(xy=ell_center, width=ell_w, height=ell_h, angle=theta, color='green', linestyle='--', linewidth=1.25)
     ax.add_patch(ell)
     ell.set_facecolor('none')
     ax.add_artist(ell)
-    plt.plot(np.NaN, np.NaN, color='k', label=r'$2 \sigma$ from data (95%)')
+    plt.plot(np.NaN, np.NaN, color='g', linestyle='--', label=r'$2 \sigma$ from data (95%)')
     
     # Plot lines 2 standard deviations from regression line
     plt.plot(x, line+(std_y*2), c='y', linestyle='-', label='_nolegend_')
@@ -300,7 +300,7 @@ def test_normality_graph():
     # Cumulative distribution curve
     rv = norm()
     pL = np.linspace(-4, 4)
-    ax2.plot(pL, rv.cdf(pL), '--', label="Normal cumulative density")
+    ax2.plot(pL, rv.cdf(pL), '--', label="Normal CDF")
     
     # vertical lines
     dL = list()
@@ -311,7 +311,7 @@ def test_normality_graph():
     ax2.set_xlim(-4, 4)
     ax2.set_ylim(-0.1, 1.1)
     
-    ax2.scatter(xL, yL, s=50, zorder=3, facecolors='white', edgecolors='k', label="Normalised data")
+    ax2.scatter(xL, yL, s=50, zorder=3, facecolors='white', edgecolors='k', label="Observations")
     
     # Add to legend
     ax2.plot(np.NaN, np.NaN, color='k', label="Residual")
